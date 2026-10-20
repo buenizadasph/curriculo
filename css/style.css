@@ -1,0 +1,57 @@
+body{
+    background: color #111;
+    font-family: arial;
+    display: flex;
+    justify-content: center; 
+    padding: 30px 15px;
+}
+.curriculo{
+    background-color: rgb(211, 203, 203);
+    width: 500px;
+    margin:100px auto;
+    background-color:rgb(219, 219, 219);
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-sizing: border-box;
+}
+.curriculo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.curriculo h1 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.curriculo h2 {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+}
+.curriculo p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    line-height: 1.5;
+}
+.curriculo hr {
+    border: 0;
+    border-top: 1px aliceblue;
+    margin: 20px 0;
+}
+
+
+.botoes{
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+.botoes button{
+    flex: 1;
+    padding: 10px 5px;
+    border: none;
+    background-color: rgb(243, 242, 241);
+    color: #000000;
+    cursor: pointer;
+}
